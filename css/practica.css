@@ -1,0 +1,13 @@
+/* Transformadores */
+.stage text{font-family:var(--f-mono);fill:var(--fg2);font-size:12px}
+.stage text.lb{font-family:var(--f-body);font-weight:600;fill:var(--fg)}
+.stage .core{fill:#5d6672;stroke:#2c323a;stroke-width:1.5}
+.stage .coil{fill:#b8692f;stroke:#7a3f17;stroke-width:1}
+.stage .turn{stroke:#e8a066;stroke-width:1.2}
+.stage .wire{fill:none;stroke:var(--fg3);stroke-width:2.2;stroke-linejoin:round}
+.stage .box{fill:var(--bg);stroke:var(--fg2);stroke-width:1.5}
+.stage .flux{fill:none;stroke:var(--acc);stroke-width:2.4;stroke-dasharray:10 14;stroke-linecap:round}
+.scope{background:#06100c;border:1px solid var(--line2);border-radius:12px;overflow:hidden}
+.scope canvas{display:block;width:100%;height:220px}
+.scope .lbls{display:flex;justify-content:space-between;gap:8px;padding:6px 10px;font:500 11.5px/1.2 var(--f-mono);color:#9fdcb8;flex-wrap:wrap}
+.coilsel{display:grid;grid-template-columns:1fr 1fr;gap:10px}
